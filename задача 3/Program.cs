@@ -5,7 +5,9 @@
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 int ReadInt( string message)
+
 {
+    System.Console.WriteLine(message);
     int value = Convert.ToInt32(Console.ReadLine());
     return value;
 }
